@@ -1,19 +1,30 @@
 import React from 'react'
-
-import Lınks from './links';
+import Links from './links';
 import Profile from './profile';
 
+import SWR from '../api/swr';
+
 const Index = () => {
+
+  const discord = SWR('discord');
+  const discordUser = discord.data ? discord.data : null;
+
   return (
-    <div className='container mx-auto'>
-      <div className='flex justify-between'>
-        <Profile />
-        <Lınks />
+    <div className='mt-12'>
+      {!discordUser && 'Loading...'}
+      {discordUser &&
+      <div className='content-between'>
+      <div className='container mx-auto flex justify-between'>
+        <Profile key={1} discord={discordUser} />
+        <Links key={2} discord={discordUser} />
       </div>
-      <div className='flex justify-between text-azurWhite'>
-        <p>Developed by @vezironi</p>
-        <p>Click Me!</p>
+      <div className='bg-gray-100 py-5'>
+        <div className='container mx-auto flex justify-between font-satoshiBold text-grayColor'>
+          <p>Developed by @vezironi</p>
+          <p>Click Me!</p>
+        </div>
       </div>
+    </div>}
     </div>
   )
 }

@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: #0F041A;
+@font-face {
+    font-family: "Satoshi-Black";
+    src: url("./assets/Satoshi-Black.ttf");
+}
+
+@font-face {
+    font-family: "Satoshi-Bold";
+    src: url("./assets/Satoshi-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Satoshi-Medium";
+    src: url("./assets/Satoshi-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Satoshi-Regular";
+    src: url("./assets/Satoshi-Regular.ttf");
 }

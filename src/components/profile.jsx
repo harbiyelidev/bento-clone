@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Profile = () => {
+const Profile = (discord) => {
+
   return (
-    <div className='w-1/2'>Profile</div>
+    
+    <div className='w-1/2'>
+    </div>
   )
 }
 
