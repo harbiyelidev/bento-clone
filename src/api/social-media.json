@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "label": "Instagram",
+        "description": "Sosyal medyada ben!",
+        "url": "",
+        "followColor": "#4093EF",
+        "hoverFollowColor": "#2875CA",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png"
+    },
+    {
+        "id": 2,
+        "label": "Twitter",
+        "description": "Sosyal medyada ben!",
+        "url": "",
+        "followColor": "#55ACEE",
+        "hoverFollowColor": "#4698d7",
+        "logo": "https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png"
+    },
+    {
+        "id": 4,
+        "label": "Github",
+        "description": "Sosyal medyada ben!",
+        "url": "",
+        "followColor": "#F6F8FA",
+        "hoverFollowColor": "#F3F4F6",
+        "logo": "https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png"
+    },
+    {
+        "id": 5,
+        "label": "Youtube",
+        "description": "Sosyal medyada ben!",
+        "url": "",
+        "followColor": "#FF0000",
+        "hoverFollowColor": "#EB0404",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/YouTube_play_button_square_%282013-2017%29.svg/2048px-YouTube_play_button_square_%282013-2017%29.svg.png"
+    }
+]
