@@ -13,10 +13,14 @@ const Index = () => {
     <div className='mt-12'>
       {!discordUser && 'Loading...'}
       {discordUser &&
-      <div className='content-between'>
-      <div className='container mx-auto flex justify-between'>
+
+      <div className='flex flex-col'>
+      <div className='container mx-auto flex justify-between mb-80'>
         <Profile key={1} discord={discordUser} />
-        <Links key={2} discord={discordUser} />
+        <Links 
+          key={2} 
+          discord={discordUser}
+        />
       </div>
       <div className='bg-gray-100 py-5'>
         <div className='container mx-auto flex justify-between font-satoshiBold text-grayColor'>

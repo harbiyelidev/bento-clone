@@ -15,10 +15,15 @@ export default {
         hoverSpotifyPlay: '#22ba58',
         inactiveSpotifyPlay: '#d71e1e',
         inactiveHoverSpotifyPlay: '#ba2222',
+
+        vsCodePrimary: '#277dff',
+        vsCodeUnhover: 'rgba(39, 125, 255, .2)',
+        vsCodeHover: 'rgba(39, 125, 255, .25)'
       },
       borderColor: {
         spotifyBorder: '#1ED760',
-        inactiveSpotifyBorder: '#d71e1e'
+        inactiveSpotifyBorder: '#d71e1e',
+        vsCodeBorder: '#277dff'
       },
       boxShadowColor: {
         grayColor: 'rgba(0,0,0,.2)',
