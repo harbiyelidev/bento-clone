@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Links from './links';
 import Profile from './profile';
 
@@ -6,12 +6,14 @@ import SWR from '../api/swr';
 
 const Index = () => {
 
-  const discord = SWR('discord');
+  const discord = SWR();
   const discordUser = discord.data ? discord.data : null;
+
 
   return (
     <div className='mt-12'>
       {!discordUser && 'Loading...'}
+      {discordUser && console.log(discordUser)}
       {discordUser &&
 
       <div className='flex flex-col'>
