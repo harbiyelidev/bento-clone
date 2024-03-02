@@ -21,3 +21,33 @@
     font-family: "Satoshi-Regular";
     src: url("./assets/Satoshi-Regular.ttf");
 }
+
+@media only screen and (max-width: 1535px) {
+    .responsive-cols-3{
+        grid-template-columns: repeat(3, max-content) !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .responsive-cols-2 {
+        grid-template-columns: repeat(1, max-content) !important;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .responsive-cols-3{
+        grid-template-columns: repeat(2, max-content) !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive-flex-col {
+        flex-direction: column !important;
+    }
+    .responsive-content-center {
+        justify-content: center !important;
+    }
+    .responsive-ml-8 {
+        margin-left: 32px;
+    }
+}

@@ -18,12 +18,19 @@ export default {
 
         vsCodePrimary: '#277dff',
         vsCodeUnhover: 'rgba(39, 125, 255, .2)',
-        vsCodeHover: 'rgba(39, 125, 255, .25)'
+        vsCodeHover: 'rgba(39, 125, 255, .25)',
+
+        valorantPrimary: '#BD3944',
+        valorantUnhover: 'rgba(253, 69, 86, .2)',
+        valorantHover: 'rgba(253, 69, 86, .25)'
       },
       borderColor: {
         spotifyBorder: '#1ED760',
         inactiveSpotifyBorder: '#d71e1e',
-        vsCodeBorder: '#277dff'
+        vsCodeBorder: '#277dff',
+
+        valorantBorder: '#BD3944'
+
       },
       boxShadowColor: {
         grayColor: 'rgba(0,0,0,.2)',
